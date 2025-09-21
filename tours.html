@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tours - Tour Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Tour
+  * Template URL: https://bootstrapmade.com/tour-bootstrap-travel-website-template/
+  * Updated: Jul 01 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="tours-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <img src="assets/img/logo-removebg.png" alt="Discover Guide Logo" style="height:100px; width:auto; transform: scale(1.5);">
+      <span>DiscoverGuide</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="tours.html" class="active">Tours</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <!-- <li><a href="destination-details.html">Destination Details</a></li>
+              <li><a href="tour-details.html">Tour Details</a></li> -->
+              <li><a href="blog.html">Blog</a></li>
+              <!-- <li><a href="booking.html">Booking</a></li>
+              <li><a href="testimonials">Testimonials</a></li> -->
+              <li><a href="faq.html">Frequently Asked Questions</a></li>
+              <!-- <li><a href="blog-details.html">Blog Details</a></li> -->
+              <li><a href="terms.html">Terms</a></li>
+              <li><a href="privacy.html">Privacy</a></li>
+              <!-- <li><a href="404.html">404</a></li> -->
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="destinations.html">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/travel/showcase-8.webp);">
+      <div class="container position-relative">
+        <h1>Kerala Tours</h1>
+        <p>Explore the enchanting beauty of Kerala with DreamGuide. From misty hill stations to serene backwaters, our curated tours offer authentic experiences across God’s Own Country.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Kerala Tours</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Travel Tours Section -->
+    <section id="travel-tours" class="travel-tours section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center mb-5">
+            <h2>Discover Kerala with DreamGuide</h2>
+            <p>Choose from our handpicked Kerala tours—hill stations, backwaters, beaches, wildlife, and culture. Let DreamGuide show you the best of Kerala, tailored to your interests and comfort.</p>
+          </div>
+        </div>
+
+        <!-- Tour Filters -->
+        <div class="row mb-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-12">
+            <div class="tour-filters">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3">
+                  <select class="form-select">
+                    <option value="">Select Destination</option>
+                    <option value="munnar">Munnar</option>
+                    <option value="alleppey">Alleppey</option>
+                    <option value="thekkady">Thekkady</option>
+                    <option value="kovalam">Kovalam</option>
+                    <option value="wayanad">Wayanad</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                  <select class="form-select">
+                    <option value="">Tour Type</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="luxury">Luxury</option>
+                    <option value="family">Family</option>
+                    <option value="cultural">Cultural</option>
+                    <option value="nature">Nature</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                  <select class="form-select">
+                    <option value="">Duration</option>
+                    <option value="1-3">1-3 Days</option>
+                    <option value="4-7">4-7 Days</option>
+                    <option value="8-14">8-14 Days</option>
+                    <option value="15+">15+ Days</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                  <select class="form-select">
+                    <option value="">Price Range</option>
+                    <option value="0-10000">₹0 - ₹10,000</option>
+                    <option value="10000-25000">₹10,000 - ₹25,000</option>
+                    <option value="25000-50000">₹25,000 - ₹50,000</option>
+                    <option value="50000+">₹50,000+</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Tours Slider -->
+        <div class="row mb-5" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-12">
+            <h3 class="section-subtitle mb-4">Featured Kerala Tours</h3>
+            <div class="featured-tours-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": 1,
+                  "spaceBetween": 30,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "breakpoints": {
+                    "768": {
+                      "slidesPerView": 2
+                    },
+                    "1200": {
+                      "slidesPerView": 3
+                    }
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="featured-tour-card">
+                    <div class="tour-image">
+                      <img src="assets/img/travel/destination-1.webp" alt="Munnar Hill Station" class="img-fluid">
+                      <div class="tour-badge">Best Seller</div>
+                    </div>
+                    <div class="tour-content">
+                      <h4>Munnar Misty Hills</h4>
+                      <p>Tea gardens, rolling hills, and cool mountain air. Experience the magic of Munnar with guided treks and plantation visits.</p>
+                      <div class="tour-meta">
+                        <span class="duration"><i class="bi bi-clock"></i> 3 Days</span>
+                        <span class="price">From ₹7,999</span>
+                      </div>
+                      <a href="tour-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="featured-tour-card">
+                    <div class="tour-image">
+                      <img src="assets/img/travel/destination-2.webp" alt="Alleppey Backwaters" class="img-fluid">
+                      <div class="tour-badge">Luxury</div>
+                    </div>
+                    <div class="tour-content">
+                      <h4>Alleppey Houseboat Retreat</h4>
+                      <p>Float through tranquil backwaters in a luxury houseboat, savoring Kerala cuisine and village life.</p>
+                      <div class="tour-meta">
+                        <span class="duration"><i class="bi bi-clock"></i> 2 Days</span>
+                        <span class="price">From ₹9,499</span>
+                      </div>
+                      <a href="tour-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="featured-tour-card">
+                    <div class="tour-image">
+                      <img src="assets/img/travel/destination-3.webp" alt="Thekkady Wildlife" class="img-fluid">
+                      <div class="tour-badge">Adventure</div>
+                    </div>
+                    <div class="tour-content">
+                      <h4>Thekkady Wildlife Safari</h4>
+                      <p>Spot elephants, tigers, and exotic birds in Periyar Wildlife Sanctuary. Includes boat ride and spice plantation tour.</p>
+                      <div class="tour-meta">
+                        <span class="duration"><i class="bi bi-clock"></i> 2 Days</span>
+                        <span class="price">From ₹8,499</span>
+                      </div>
+                      <a href="tour-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="featured-tour-card">
+                    <div class="tour-image">
+                      <img src="assets/img/travel/destination-4.webp" alt="Kovalam Beach" class="img-fluid">
+                      <div class="tour-badge">Beach</div>
+                    </div>
+                    <div class="tour-content">
+                      <h4>Kovalam Beach Escape</h4>
+                      <p>Golden sands, palm-fringed shores, and Ayurvedic wellness. Relax and rejuvenate in Kerala’s iconic beach town.</p>
+                      <div class="tour-meta">
+                        <span class="duration"><i class="bi bi-clock"></i> 3 Days</span>
+                        <span class="price">From ₹6,999</span>
+                      </div>
+                      <a href="tour-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="featured-tour-card">
+                    <div class="tour-image">
+                      <img src="assets/img/travel/destination-5.webp" alt="Wayanad Nature" class="img-fluid">
+                      <div class="tour-badge">Nature</div>
+                    </div>
+                    <div class="tour-content">
+                      <h4>Wayanad Nature Trails</h4>
+                      <p>Rainforests, waterfalls, and ancient caves. Trek through Wayanad’s lush landscapes and tribal villages.</p>
+                      <div class="tour-meta">
+                        <span class="duration"><i class="bi bi-clock"></i> 4 Days</span>
+                        <span class="price">From ₹10,499</span>
+                      </div>
+                      <a href="tour-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tour Categories -->
+        <div class="row mb-5" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-12">
+            <h3 class="section-subtitle mb-4">Browse Kerala Tour Types</h3>
+            <div class="row">
+              <div class="col-lg-2 col-md-4 col-6 mb-3">
+                <div class="category-card">
+                  <div class="category-icon">
+                    <i class="bi bi-compass"></i>
+                  </div>
+                  <h5>Hill Station</h5>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 mb-3">
+                <div class="category-card">
+                  <div class="category-icon">
+                    <i class="bi bi-water"></i>
+                  </div>
+                  <h5>Backwater</h5>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 mb-3">
+                <div class="category-card">
+                  <div class="category-icon">
+                    <i class="bi bi-tree"></i>
+                  </div>
+                  <h5>Wildlife</h5>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 mb-3">
+                <div class="category-card">
+                  <div class="category-icon">
+                    <i class="bi bi-sun"></i>
+                  </div>
+                  <h5>Beach</h5>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 mb-3">
+                <div class="category-card">
+                  <div class="category-icon">
+                    <i class="bi bi-palette"></i>
+                  </div>
+                  <h5>Cultural</h5>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 mb-3">
+                <div class="category-card">
+                  <div class="category-icon">
+                    <i class="bi bi-people"></i>
+                  </div>
+                  <h5>Family</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Special Offers -->
+        <div class="row mb-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-12">
+            <div class="special-offers">
+              <h3 class="section-subtitle mb-4">Kerala Special Offers</h3>
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <div class="offer-banner">
+                    <div class="offer-content">
+                      <div class="discount-badge">20% OFF</div>
+                      <h4>Monsoon Magic in Kerala</h4>
+                      <p>Book a monsoon tour and experience Kerala’s lush landscapes at their greenest. Limited period offer!</p>
+                      <span class="urgency">Only 5 seats left!</span>
+                      <a href="booking.html" class="btn btn-accent">Book Now</a>
+                    </div>
+                    <div class="offer-image">
+                      <img src="assets/img/travel/misc-12.webp" alt="Kerala Monsoon" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="offer-banner">
+                    <div class="offer-content">
+                      <div class="discount-badge">15% OFF</div>
+                      <h4>Ayurveda Wellness Retreat</h4>
+                      <p>Rejuvenate with authentic Ayurveda therapies in Kerala’s top resorts. Book now for exclusive rates!</p>
+                      <span class="urgency">Limited time offer!</span>
+                      <a href="booking.html" class="btn btn-accent">Book Now</a>
+                    </div>
+                    <div class="offer-image">
+                      <img src="assets/img/travel/misc-8.webp" alt="Ayurveda" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tour Grid -->
+        <div class="row" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-12">
+            <h3 class="section-subtitle mb-4">All Kerala Tours</h3>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="tour-card">
+                  <div class="tour-image">
+                    <img src="assets/img/travel/destination-1.webp" alt="Munnar" class="img-fluid">
+                    <div class="tour-price">₹7,999</div>
+                  </div>
+                  <div class="tour-content">
+                    <h4>Munnar Hill Station</h4>
+                    <p>Tea plantations, misty mountains, and scenic viewpoints. Perfect for nature lovers and honeymooners.</p>
+                    <div class="tour-details">
+                      <span><i class="bi bi-clock"></i> 3 Days</span>
+                      <span><i class="bi bi-star-fill"></i> 4.8 (124 reviews)</span>
+                    </div>
+                    <a href="tour-details.html" class="btn btn-outline-primary">View Tour</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="tour-card">
+                  <div class="tour-image">
+                    <img src="assets/img/travel/destination-2.webp" alt="Alleppey" class="img-fluid">
+                    <div class="tour-price">₹9,499</div>
+                  </div>
+                  <div class="tour-content">
+                    <h4>Alleppey Backwaters</h4>
+                    <p>Houseboat stay, village walks, and bird watching. Experience the calm and charm of Kerala’s backwaters.</p>
+                    <div class="tour-details">
+                      <span><i class="bi bi-clock"></i> 2 Days</span>
+                      <span><i class="bi bi-star-fill"></i> 4.9 (89 reviews)</span>
+                    </div>
+                    <a href="tour-details.html" class="btn btn-outline-primary">View Tour</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="tour-card">
+                  <div class="tour-image">
+                    <img src="assets/img/travel/destination-3.webp" alt="Thekkady" class="img-fluid">
+                    <div class="tour-price">₹8,499</div>
+                  </div>
+                  <div class="tour-content">
+                    <h4>Thekkady Wildlife</h4>
+                    <p>Boat safari, spice gardens, and jungle walks. Spot wildlife in Periyar and enjoy Kerala’s natural bounty.</p>
+                    <div class="tour-details">
+                      <span><i class="bi bi-clock"></i> 2 Days</span>
+                      <span><i class="bi bi-star-fill"></i> 4.7 (156 reviews)</span>
+                    </div>
+                    <a href="tour-details.html" class="btn btn-outline-primary">View Tour</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="tour-card">
+                  <div class="tour-image">
+                    <img src="assets/img/travel/destination-4.webp" alt="Kovalam" class="img-fluid">
+                    <div class="tour-price">₹6,999</div>
+                  </div>
+                  <div class="tour-content">
+                    <h4>Kovalam Beach</h4>
+                    <p>Sun, sand, and Ayurveda. Relax on the beach or indulge in wellness therapies at top resorts.</p>
+                    <div class="tour-details">
+                      <span><i class="bi bi-clock"></i> 3 Days</span>
+                      <span><i class="bi bi-star-fill"></i> 4.8 (95 reviews)</span>
+                    </div>
+                    <a href="tour-details.html" class="btn btn-outline-primary">View Tour</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="tour-card">
+                  <div class="tour-image">
+                    <img src="assets/img/travel/destination-5.webp" alt="Wayanad" class="img-fluid">
+                    <div class="tour-price">₹10,499</div>
+                  </div>
+                  <div class="tour-content">
+                    <h4>Wayanad Nature</h4>
+                    <p>Rainforests, waterfalls, and caves. Trek through Wayanad’s wild beauty and discover tribal culture.</p>
+                    <div class="tour-details">
+                      <span><i class="bi bi-clock"></i> 4 Days</span>
+                      <span><i class="bi bi-star-fill"></i> 4.6 (178 reviews)</span>
+                    </div>
+                    <a href="tour-details.html" class="btn btn-outline-primary">View Tour</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="tour-card">
+                  <div class="tour-image">
+                    <img src="assets/img/travel/destination-14.webp" alt="Kerala Culture" class="img-fluid">
+                    <div class="tour-price">₹11,999</div>
+                  </div>
+                  <div class="tour-content">
+                    <h4>Kerala Cultural Heritage</h4>
+                    <p>Classical dance, temple festivals, and local cuisine. Immerse in Kerala’s vibrant traditions and arts.</p>
+                    <div class="tour-details">
+                      <span><i class="bi bi-clock"></i> 3 Days</span>
+                      <span><i class="bi bi-star-fill"></i> 4.9 (203 reviews)</span>
+                    </div>
+                    <a href="tour-details.html" class="btn btn-outline-primary">View Tour</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="row" data-aos="fade-up" data-aos-delay="700">
+          <div class="col-12">
+            <div class="cta-section text-center">
+              <h3>Need Help Planning?</h3>
+              <p>DreamGuide’s Kerala experts are ready to help you craft the perfect itinerary. Contact us for personalized recommendations and exclusive deals.</p>
+              <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary me-3">Contact Our Experts</a>
+                <a href="booking.html" class="btn btn-outline-primary">Book Your Kerala Tour</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Travel Tours Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Discover Guide</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p><strong>Discover Guide Holidays</strong></p>
+            <p>Kerala, India</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>9207130669, 9061621530, +91 85902 09482</span></p>
+            <p><strong>Email:</strong> <span>discoverguide06@gmail.com</span></p>
+            <!-- <p><strong>Website:</strong> <a href="https://discoverguide.in/" target="_blank">discoverguide.in</a></p> -->
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about.html">About Us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="tours.html">Tours</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="terms.html">Terms & Conditions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> Domestic Tour Packages</li>
+            <li><i class="bi bi-chevron-right"></i> Kerala Tour Packages</li>
+            <li><i class="bi bi-chevron-right"></i> Hotel Bookings</li>
+            <li><i class="bi bi-chevron-right"></i> Adventure Tourism</li>
+            <li><i class="bi bi-chevron-right"></i> Religious & Regional Tourism</li>
+            <li><i class="bi bi-chevron-right"></i> Bike Explore</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Connect With Us</h4>
+          <p>Follow us for travel inspiration, updates, and exclusive offers.</p>
+          <div class="social-links d-flex">
+            <a href="https://www.instagram.com/dis.coverguide?igsh=azE5eTB6dWw3anN0" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://discoverguide.in/" target="_blank"><i class="bi bi-globe"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">DiscoverGuide</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
